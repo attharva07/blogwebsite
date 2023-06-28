@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://css.gg/css?=|home" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/0a86936aea.js" crossorigin="anonymous"></script>
+      <script src="script.js" defer></script>
+      <title>Blog Website</title>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="icon">
+          <a href="#"><i class="fa-solid fa-house fa-xl"></i></a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+  
+  <div class="container">
+    <div id="post-list">
+      <!-- Posts will be dynamically added here -->
+    </div>
+
+    <div id="add-post">
+      <h2>Create a new post</h2>
+      <input type="text" id="post-title" placeholder="Title">
+      <textarea id="post-content" placeholder="Content"></textarea>
+      <button id="submit-post">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <div class="about" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to My Blog, a platform where we share our thoughts, ideas, and experiences with you. We are passionate about various topics and aim to provide valuable content to our readers.</p>
+    <p>Our team of dedicated writers covers a wide range of topics, including technology, lifestyle, travel, and more. We strive to deliver informative and engaging articles that inspire and entertain our audience.</p>
+    <p>Feel free to explore our blog and discover insightful content that sparks your interest. We hope you enjoy reading our articles as much as we enjoy creating them.</p>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! If you have any questions, feedback, or inquiries, please feel free to get in touch with us using the contact form below.</p>
+
+    <form id="contact-form" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+
+  <div class="faq1" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq">
+      <h3 class="question">Question 1: What topics do you cover on your blog?</h3>
+      <p class="answer">Answer: We cover a wide range of topics including technology, lifestyle, travel, and more. Our aim is to provide diverse and informative content to our readers.</p>
+    </div>
+
+    <div class="faq">
+      <h3 class="question">Question 2: Can I contribute to your blog as a guest writer?</h3>
+      <p class="answer">Answer: Yes, we welcome guest contributions. If you have an interesting article idea, feel free to reach out to us through the contact page.</p>
+    </div>
+
+    <div class="faq">
+      <h3 class="question">Question 3: How often do you publish new articles?</h3>
+      <p class="answer">Answer: We strive to publish new articles regularly. Our publishing frequency may vary, but we aim to provide fresh content to our readers on a consistent basis.</p>
+    </div>
+
+    <!-- Add more FAQs as needed -->
+
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Atharva Thite. All rights reserved.</p>
+  </footer>
+
+    </body>
+</html>
